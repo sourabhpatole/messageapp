@@ -1,0 +1,110 @@
+.delete-user-div{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.delete-div{
+    width: 800px;
+    height: fit-content;
+    border-radius: 20px;
+    background: #191A19;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    z-index: 0;
+}
+
+.form-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.delete-user-button{
+    width: 140px;
+}
+
+.delete-user-button:hover{
+    transform: translate(2px, -2px);
+    -webkit-transform: translate(2px, -2px);
+    -moz-transform: translate(2px, -2px);
+    -ms-transform: translate(2px, -2px);
+    -o-transform: translate(2px, -2px);
+}
+
+.delete-user-img{
+    width: 22px;
+    height: 22px;
+    margin: 0 10px 0 0;
+}
+
+.close{
+    width: 22px;
+    height: 22px;
+    margin: 0 !important;
+}
+
+.delete-msg{
+    font-family: var(--font-family-1);
+    font-size: 22px;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-div{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 10px 0;
+}
+
+.delete-user-button{
+    width: 130px;
+    height: 45px;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    font-family: var(--font-family-1);
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+    -webkit-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+    -moz-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+    -ms-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+    -o-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+}

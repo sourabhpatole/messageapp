@@ -1,0 +1,8 @@
+.main-heading {
+  font-family: var(--font-family-1);
+  width: 80%;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0px 0px 0px 35px;
+  color: #beadad;
+}

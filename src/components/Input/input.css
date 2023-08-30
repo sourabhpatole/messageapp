@@ -1,0 +1,56 @@
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 20px 40px;
+}
+
+.label{
+  color: var(--grey);
+  margin: 5px 0;
+  letter-spacing: 1px;
+  font-family: var(--font-family-1);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.input{
+  width: 300px;
+  height: 40px;
+  padding: 5px 10px;
+  font-family: var(--font-family-1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  outline:none;
+  border: none;
+  color: var(--primary-color);
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.input::placeholder{
+  color: var(--background-color);
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input:focus{
+  outline: 1px solid var(--grey);
+}
+
+.error-msg{
+  margin: 10px 0;
+  color: white;
+  font-family: var(--font-family-1);
+}
+
+
+
+::-ms-reveal {
+    filter: invert(27%) sepia(2%) saturate(5292%) hue-rotate(21deg) brightness(98%) contrast(98%);
+  }

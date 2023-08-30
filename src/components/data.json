@@ -1,0 +1,123 @@
+[
+    {
+        "FirstName"  : "Meshak",
+        "LastName"   : "Junior",
+        "Email"      : "meshakjunior@gmail.com",
+        "Branch"     : "Chennai",
+        "Employee ID": "TEK0161",
+        "Status"     : "Active",
+        "Group"      : "UI & UX",
+        "Id"         : 1
+    },
+    {
+        "FirstName"  : "Sourabh",
+        "LastName"   : "Pathole",
+        "Email"      : "sourabhpathole@gmail.com",
+        "Branch"     : "Kolkata",
+        "Employee ID": "TEK0261",
+        "Status"     : "Inactive",
+        "Group"      : "Front-End",
+        "Id"         : 2
+    },
+    {
+        "FirstName"  : "Anushiya",
+        "LastName"   : "Soundhar",
+        "Email"      : "anushiyasoundhar@gmail.com",
+        "Branch"     : "Tirunelveli",
+        "Employee ID": "TEK0262",
+        "Status"     : "Active",
+        "Group"      : "Front-End",
+        "Id"         : 3
+    },
+    {
+        "FirstName"  : "Meshak",
+        "LastName"   : "Junior",
+        "Email"      : "meshakjunior@gmail.com",
+        "Branch"     : "Chennai",
+        "Employee ID": "TEK0161",
+        "Status"     : "Active",
+        "Group"      : "UI & UX",
+        "Id"         : 4
+    },
+    {
+        "FirstName"  : "Sourabh",
+        "LastName"   : "Pathole",
+        "Email"      : "sourabhpathole@gmail.com",
+        "Branch"     : "Kolkata",
+        "Employee ID": "TEK0261",
+        "Status"     : "Inactive",
+        "Group"      : "Front-End",
+        "Id"         : 5
+    },
+    {
+        "FirstName"  : "Anushiya",
+        "LastName"   : "Soundhar",
+        "Email"      : "anushiyasoundhar@gmail.com",
+        "Branch"     : "Tirunelveli",
+        "Employee ID": "TEK0262",
+        "Status"     : "Active",
+        "Group"      : "Front-End",
+        "Id"         : 6
+    },
+    {
+        "FirstName"  : "Meshak",
+        "LastName"   : "Junior",
+        "Email"      : "meshakjunior@gmail.com",
+        "Branch"     : "Chennai",
+        "Employee ID": "TEK0161",
+        "Status"     : "Active",
+        "Group"      : "UI & UX",
+        "Id"         : 7
+    },
+    {
+        "FirstName"  : "Sourabh",
+        "LastName"   : "Pathole",
+        "Email"      : "sourabhpathole@gmail.com",
+        "Branch"     : "Kolkata",
+        "Employee ID": "TEK0261",
+        "Status"     : "Inactive",
+        "Group"      : "Front-End",
+        "Id"         : 8
+    },
+    {
+        "FirstName"  : "Anushiya",
+        "LastName"   : "Soundhar",
+        "Email"      : "anushiyasoundhar@gmail.com",
+        "Branch"     : "Tirunelveli",
+        "Employee ID": "TEK0262",
+        "Status"     : "Active",
+        "Group"      : "Front-End",
+        "Id"         : 9
+    },
+    {
+        "FirstName"  : "Meshak",
+        "LastName"   : "Junior",
+        "Email"      : "meshakjunior@gmail.com",
+        "Branch"     : "Chennai",
+        "Employee ID": "TEK0161",
+        "Status"     : "Active",
+        "Group"      : "UI & UX",
+        "Id"         : 10
+    },
+    {
+        "FirstName"  : "Sourabh",
+        "LastName"   : "Pathole",
+        "Email"      : "sourabhpathole@gmail.com",
+        "Branch"     : "Kolkata",
+        "Employee ID": "TEK0261",
+        "Status"     : "Inactive",
+        "Group"      : "Front-End",
+        "Id"         : 11
+    },
+    {
+        "FirstName"  : "Anushiya",
+        "LastName"   : "Soundhar",
+        "Email"      : "anushiyasoundhar@gmail.com",
+        "Branch"     : "Tirunelveli",
+        "Employee ID": "TEK0262",
+        "Status"     : "Active",
+        "Group"      : "Front-End",
+        "Id"         : 12
+    }
+
+]

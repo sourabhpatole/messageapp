@@ -1,0 +1,41 @@
+.search-emp-div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-emp{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    background: none;
+    padding: 0 20px 0 40px;
+    font-family: var(--font-family-1);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+
+.search-emp:focus{
+    border: 2px solid var(--primary-color);
+}
+
+.search-div{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search-img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 0 0 0 15px;
+}

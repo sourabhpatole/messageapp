@@ -1,0 +1,186 @@
+.user-section-div {
+  width: 85vw;
+  height: 100vh;
+  margin-left: 14vw;
+  display: flex;
+  background-color: #191a19;
+  margin-top: 60px;
+}
+
+.user-sub-div {
+  width: 100%;
+  height: 100%;
+}
+
+.user-sidebar {
+  width: 320px;
+  height: 100%;
+  background-color: var(--secondary-color);
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.create-team-button,
+.create-user-button {
+  width: 150px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  font-family: var(--font-family-1);
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+  -webkit-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+  -moz-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+  -ms-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+  -o-transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.2s;
+}
+
+.create-team-img,
+.create-user-img,
+.create-team-img,
+.close {
+  width: 22px;
+  height: 22px;
+  margin: 0 10px 0 0;
+}
+
+.close-form {
+  width: 40px !important;
+  height: 40px !important;
+  margin-right: 20px;
+}
+
+.close {
+  margin: 0;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.create-user-form,
+.create-team-form {
+  width: 800px;
+  height: fit-content;
+  border-radius: 20px;
+  background: #191a19;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  width: 800px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-user-button {
+  width: 140px;
+}
+
+.create-team-button:hover,
+.create-user-button:hover {
+  transform: translate(2px, -2px);
+  -webkit-transform: translate(2px, -2px);
+  -moz-transform: translate(2px, -2px);
+  -ms-transform: translate(2px, -2px);
+  -o-transform: translate(2px, -2px);
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.create-user-heading,
+.create-team-heading {
+  margin: 20px;
+}
+
+.margin-btm-none {
+  margin-bottom: 0 !important;
+}
+
+.add-btn-margin {
+  margin: 40px 40px 40px 0px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  --webkit-filter: blur(5px);
+  z-index: 0;
+}
+
+.employee-details-div::-webkit-scrollbar {
+  width: 7px;
+}
+
+.employee-details-div::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.employee-details-div::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: var(--secondary-color);
+}
+
+.create-team-form .form-group {
+  margin: 20px 40px 0px;
+  display: flex;
+}
+
+.create-user-div,
+.create-team-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}

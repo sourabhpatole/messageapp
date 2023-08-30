@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --font-family-1 : "Quicksand", sans-serif;
+    --background-color : #1C1C16;
+    --primary-color: #48482D;
+    --secondary-color: #2D2D1E;
+    --text-color: #E6E4BF;
+    --grey: #C5C3B2;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+  
+/* @font-face {
+    font-family:  var(--font-family-1);
+    src: url(./font/Product-Sans-Regular.ttf) format("ttf") ;
+} */
+

@@ -1,0 +1,21 @@
+.settings-div {
+  min-height: 100vh;
+}
+.profile-form {
+  margin: 35px 15vw;
+  max-width: 850px;
+  /* min-height: 100vh; */
+}
+.user_details {
+  color: wheat;
+  /* word-spacing: 2px; */
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.user_details span {
+  font-size: 30px;
+}
+.table {
+  width: 70vw;
+  margin-left: 15vw;
+}
